@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <style>
+        .grid-container {
+            display: grid;
+        }
+
+        .grid-item {
+            height: 50px;
+            width: 50px;
+        }
+    </style>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,7 +19,14 @@
 </head>
 
 <body>
-    <img src="./Head.png" />
+    <div class="grid-container">
+        <img class="grid-item" src="./Head.png" />
+        <img class="grid-item" src="./LeftArm.png" />
+        <img class="grid-item" src="./RightArm.png" />
+        <img class="grid-item" src="./Body.png" />
+        <img class="grid-item" src="./LeftLeg.png" />
+        <img class="grid-item" src="./RightLeg.png" />
+    </div>
 </body>
 
 </html>
