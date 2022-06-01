@@ -5,6 +5,7 @@
     <style>
         .grid-container {
             display: grid;
+            grid-template-columns: 30px 30px 30px;
         }
 
         .grid-item {
@@ -17,11 +18,23 @@
         }
 
         .item2 {
-            grid-column-start: 1
+            grid-column-start: 1;
+            grid-row-start: 2;
         }
 
         .item3 {
-            grid-column-start: 3
+            grid-column-start: 3;
+            grid-row-start: 2;
+        }
+
+        .item4 {
+            grid-column-start: 1;
+            grid-row-start: 3;
+        }
+
+        .item5 {
+            grid-column-start: 3;
+            grid-row-start: 3;
         }
     </style>
     <meta charset="UTF-8">
@@ -36,8 +49,8 @@
         <img class="grid-item item2" src="./LeftArm.png" />
         <img class="grid-item item3" src="./RightArm.png" />
         <img class="grid-item item1" src="./Body.png" />
-        <img class="grid-item item2" src="./LeftLeg.png" />
-        <img class="grid-item item3" src="./RightLeg.png" />
+        <img class="grid-item item4" src="./LeftLeg.png" />
+        <img class="grid-item item5" src="./RightLeg.png" />
     </div>
 </body>
 
